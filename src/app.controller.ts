@@ -14,6 +14,7 @@ export class AppController {
     return this.assetsService.createPaint();
   }
 
+  /** localhost:3000/all */
   @Get('all')
   all(): string[] {
     return ['sharath', 'rajat', 'arun'];
